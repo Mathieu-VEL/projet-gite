@@ -1,0 +1,150 @@
+:root {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  background-color: white;
+}
+
+#container .navbar #list {
+  list-style-type: none;
+  padding: 0px;
+  margin: 2%;
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+  display: flex;
+  justify-content: space-around;
+  padding: 0% 0%;
+  font-family: "Quattrocento Sans", sans-serif;
+  font-weight: bolder;
+  list-style: none;
+  align-items: center;
+}
+#container .navbar #list li {
+  font-size: 200%;
+}
+#container .navbar #list .logo {
+  height: 150px;
+  width: auto;
+  justify-content: space-around;
+  padding-right: 250px;
+  padding-left: 100px;
+}
+#container .navbar #list a {
+  text-decoration: none;
+  color: black;
+  transition: 0.3s;
+}
+#container .imgaccueil {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#container .imgaccueil h1 {
+  background-color: black;
+  height: 100%;
+  width: 1000px;
+}
+#container .imgaccueil h1 img {
+  height: 100%;
+  width: 100%;
+  opacity: 0.7;
+}
+#container .imgaccueil h2 {
+  position: absolute;
+}
+#container .blocxp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ced4da;
+  height: auto;
+  width: 85%;
+  margin: auto;
+  padding: 0px 0%;
+  border-radius: 10px;
+}
+#container .blocxp .textxp img {
+  display: flex;
+  align-content: center;
+  margin: auto;
+  height: 300px;
+  width: auto;
+}
+#container .blocxp .textxp h1 {
+  text-align: center;
+  font-size: 70px;
+  text-shadow: rgb(62, 128, 214) 1px 0 10px;
+}
+#container .blocxp .textxp h2 {
+  text-align: center;
+  font-size: 40px;
+}
+#container .blocsatis {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ced4da;
+  height: auto;
+  width: 85%;
+  margin: auto;
+  margin-top: 2%;
+  border-radius: 10px;
+}
+#container .blocsatis .textsatis img {
+  display: flex;
+  align-content: center;
+  margin: auto;
+  height: 300px;
+  width: auto;
+}
+#container .blocsatis .textsatis h1 {
+  text-align: center;
+  font-size: 70px;
+  text-shadow: rgb(62, 128, 214) 1px 0 10px;
+}
+#container .blocsatis .textsatis h2 {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  padding: 2%;
+  font-size: 40px;
+}
+#container .blocconf {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ced4da;
+  height: auto;
+  width: 85%;
+  margin: auto;
+  margin-top: 2%;
+  border-radius: 10px;
+}
+#container .blocconf .textconf img {
+  display: flex;
+  align-content: center;
+  margin: auto;
+  height: 300px;
+  width: auto;
+}
+#container .blocconf .textconf h1 {
+  text-align: center;
+  font-size: 70px;
+  text-shadow: rgb(62, 128, 214) 1px 0 10px;
+}
+#container .blocconf .textconf h2 {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  padding: 2%;
+  font-size: 40px;
+}
+#container a:hover {
+  color: rgb(231, 13, 13);
+  text-shadow: 0 0 10px red, 0 0 20px red, 0 0 40px red, 0 0 80px red, 0 0 120px red, 0 0 160px red;
+}
+
+/*# sourceMappingURL=style.css.map */

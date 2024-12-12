@@ -1,0 +1,14 @@
+{
+  "name": "projet-gite",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "sass":"sass --watch style/style.scss style/style.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "sass": "^1.82.0"
+  }
+}

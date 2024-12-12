@@ -1,0 +1,210 @@
+$couleurfond: #ced4da;
+
+:root {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: white;
+}
+
+#container {
+
+    // <!-- bar navigaion -->
+    .navbar {
+        #list {
+            list-style-type: none;
+            padding: 0px;
+            margin: 2%;
+            border-top: 1px solid;
+            border-bottom: 1px solid;
+            display: flex;
+            justify-content: space-around;
+            padding: 0% 0%;
+            font-family: "Quattrocento Sans", sans-serif;
+            font-weight: bolder;
+            list-style: none;
+            align-items: center;
+
+            li {
+                font-size: 200%;
+            }
+
+            .logo {
+                height: 150px;
+                width: auto;
+                justify-content: space-around;
+                padding-right: 250px;
+                padding-left: 100px;
+            }
+
+            a {
+                text-decoration: none;
+                color: black;
+                transition: 0.3s;
+            }
+        }
+    }
+
+    // <!-- bar navigaion -->
+
+    // presentation image/logo accueil
+    .imgaccueil {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        h1 {
+            background-color: black;
+            height: 100%;
+            width: 1000px;
+
+            img {
+                height: 100%;
+                width: 100%;
+                opacity: 0.7;
+            }
+        }
+
+        h2 {
+            position: absolute;
+        }
+    }
+
+    // presentation image/logo accueil
+
+    // block experience
+    .blocxp {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: $couleurfond;
+        height: auto;
+        width: 85%;
+        margin: auto;
+        padding: 0px 0%;
+        border-radius: 10px;
+
+        .textxp {
+            img {
+                display: flex;
+                align-content: center;
+                margin: auto;
+                height: 300px;
+                width: auto;
+            }
+
+            h1 {
+                text-align: center;
+                font-size: 70px;
+                text-shadow: rgb(62, 128, 214) 1px 0 10px;
+                // font-family: ;
+            }
+
+            h2 {
+                text-align: center;
+                font-size: 40px;
+                // font-family: 
+            }
+        }
+
+    }
+
+    // block experience
+
+    // block satisfaction
+
+    .blocsatis {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: $couleurfond;
+        height: auto;
+        width: 85%;
+        margin: auto;
+        margin-top: 2%;
+        border-radius: 10px;
+
+        .textsatis {
+            img {
+                display: flex;
+                align-content: center;
+                margin: auto;
+                height: 300px;
+                width: auto;
+            }
+
+            h1 {
+                text-align: center;
+                font-size: 70px;
+                text-shadow: rgb(62, 128, 214) 1px 0 10px;
+                // font-family: ;
+            }
+
+            h2 {
+                display: flex;
+                justify-content: space-around;
+                text-align: center;
+                padding: 2%;
+                font-size: 40px;
+                // font-family: 
+            }
+        }
+    }
+
+    // block satisfaction
+    // block confiance
+    .blocconf {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: $couleurfond;
+        height: auto;
+        width: 85%;
+        margin: auto;
+        margin-top: 2%;
+        border-radius: 10px;
+
+        .textconf {
+            img {
+                display: flex;
+                align-content: center;
+                margin: auto;
+                height: 300px;
+                width: auto;
+            }
+
+            h1 {
+                text-align: center;
+                font-size: 70px;
+                // font-family: ;
+                text-shadow: rgb(62, 128, 214) 1px 0 10px;
+            }
+
+            h2 {
+                display: flex;
+                justify-content: space-around;
+                text-align: center;
+                padding: 2%;
+                font-size: 40px;
+                // font-family: 
+            }
+        }
+    }
+
+    // block confiance
+
+
+
+
+    // option hovers -->
+    a:hover {
+        color: rgb(231, 13, 13);
+        text-shadow: 0 0 10px red, 0 0 20px red, 0 0 40px red, 0 0 80px red,
+            0 0 120px red, 0 0 160px red;
+    }
+
+    // option hovers -->
+}
