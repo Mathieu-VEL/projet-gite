@@ -1,16 +1,12 @@
 $couleurfond: #ced4da;
 
-:root {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+    margin: auto;
     max-width: 1200px;
-    width: 100%;
-    margin: 0 auto;
-    background-color: white;
 }
 
 #container {
+
     // <!-- bar navigaion -->
     .navbar {
         #list {
@@ -59,7 +55,7 @@ $couleurfond: #ced4da;
         h1 {
             background-color: black;
             height: 100%;
-            width: 1000px;
+            width: 85%;
 
             img {
                 height: 100%;
@@ -71,6 +67,8 @@ $couleurfond: #ced4da;
 
         h2 {
             position: absolute;
+            height: 50%;
+            width: 30%;
         }
     }
 
@@ -84,7 +82,7 @@ $couleurfond: #ced4da;
         background-color: $couleurfond;
         height: auto;
         width: 85%;
-        margin: auto;
+        margin-top: 2%;
         padding: 0px 0%;
         border-radius: 10px;
 
@@ -108,8 +106,6 @@ $couleurfond: #ced4da;
             h2 {
                 text-align: center;
                 font-size: 30px;
-                display: flex;
-                justify-content: space-around;
                 margin: 2%;
             }
         }
@@ -145,15 +141,12 @@ $couleurfond: #ced4da;
                 font-size: 70px;
                 text-shadow: 4px 3px 0 #7A7A7A;
                 margin: auto;
-                // font-family: ;
             }
 
             h2 {
                 text-align: center;
                 font-size: 30px;
-                display: flex;
-                justify-content: space-around;
-                margin: 3%;
+                margin: 2%;
             }
         }
     }
@@ -190,8 +183,6 @@ $couleurfond: #ced4da;
             h2 {
                 text-align: center;
                 font-size: 30px;
-                display: flex;
-                justify-content: space-around;
                 margin: 2%;
             }
         }
@@ -230,15 +221,15 @@ $couleurfond: #ced4da;
             h2 {
                 text-align: center;
                 font-size: 30px;
-                display: flex;
-                justify-content: space-around;
                 margin: 2%;
             }
         }
     }
 
     // block sécurité
+
     // img family
+
     .imgfamily {
         display: flex;
         justify-content: center;
@@ -284,17 +275,14 @@ $couleurfond: #ced4da;
             h1 {
                 text-align: center;
                 font-size: 70px;
-                text-shadow: 4px 3px 0 #7A7A7A;
+                // text-shadow: 4px 3px 0 #7A7A7A;
                 margin: auto;
             }
 
             h2 {
                 text-align: center;
                 font-size: 30px;
-                display: flex;
-                justify-content: space-around;
-                margin: 1%;
-                // font-family: 
+                margin: 2%;
             }
         }
     }
@@ -305,21 +293,25 @@ $couleurfond: #ced4da;
         display: flex;
         justify-content: center;
         align-items: center;
-        background-color: rgba(187, 231, 243, 1);
-        height: auto;
-        width: 30%;
         margin: auto;
         margin-top: 2%;
         border-radius: 10px;
 
         h1 {
             a {
+                background-color: rgba(187, 231, 243, 1);
+                height: 70px;
+                width: 240px;
+                margin: auto;
+                margin-top: 2%;
+                border-radius: 10px;
                 display: flex;
-                justify-content: center;
+                justify-content: space-around;
                 align-items: center;
                 text-decoration: none;
                 color: black;
                 transition: 0.3s;
+                margin: auto;
             }
         }
     }
@@ -339,15 +331,17 @@ $couleurfond: #ced4da;
             justify-content: space-around;
             align-items: center;
             padding: 15px;
-            .facebook{
+
+            .facebook {
                 padding-left: 45%;
             }
-            .instagram{
+
+            .instagram {
                 padding-right: 45%;
             }
         }
 
-        .blocmention{
+        .blocmention {
             display: flex;
             justify-content: space-around;
             align-items: center;
@@ -359,6 +353,7 @@ $couleurfond: #ced4da;
             width: 31%;
             color: white;
             padding-right: 16%;
+            margin: 0%;
         }
 
         a {
@@ -373,17 +368,154 @@ $couleurfond: #ced4da;
             margin: 0px;
             transition: 0.3s;
             font-size: 20px;
+            padding-right: 1%;
         }
     }
 
     // bloc footer
 
 
+    // bloc article1
+    .bloctop {
+        display: flex;
+        justify-content: space-around;
 
+        .blocarticle1 {
+            display: flex;
+            justify-content: space-around;
+            // align-items: center;
+            background-color: $couleurfond;
+            height: auto;
+            width: 45%;
+            margin-top: 2%;
+            padding: 0px 0%;
+            border-radius: 10px;
 
+            .textarticle1 {
+                .imgaccueil {
+                    margin: 23px;
 
+                    img {
+                        display: flex;
+                        align-content: center;
+                        margin: auto;
+                        height: 300px;
+                        width: 100%;
+                        border-radius: 10px;
+                    }
+                }
 
+                h1 {
+                    text-align: center;
+                    font-size: 23px;
+                    margin: 5%;
+                }
 
+                h2 {
+                    margin-bottom: 4%;
+
+                    a {
+                        background-color: rgba(187, 231, 243, 1);
+                        height: 70px;
+                        width: 240px;
+                        margin: auto;
+                        margin-top: 2%;
+                        border-radius: 10px;
+                        display: flex;
+                        justify-content: space-around;
+                        align-items: center;
+                        text-decoration: none;
+                        color: black;
+                        transition: 0.3s;
+                        margin: auto;
+                    }
+                }
+            }
+
+        }
+    }
+
+    .blocbot {
+        display: flex;
+        justify-content: space-around;
+
+        .blocarticle1 {
+            display: flex;
+            justify-content: space-around;
+            // align-items: center;
+            background-color: $couleurfond;
+            height: auto;
+            width: 45%;
+            margin-top: 2%;
+            padding: 0px 0%;
+            border-radius: 10px;
+
+            .textarticle1 {
+                .imgaccueil {
+                    margin: 23px;
+
+                    img {
+                        display: flex;
+                        align-content: center;
+                        margin: auto;
+                        height: 300px;
+                        width: 100%;
+                        border-radius: 10px;
+                    }
+                }
+
+                h1 {
+                    text-align: center;
+                    font-size: 23px;
+                    margin: 5%;
+                }
+
+                h2 {
+                    margin-bottom: 4%;
+
+                    a {
+                        background-color: rgba(187, 231, 243, 1);
+                        height: 70px;
+                        width: 240px;
+                        margin: auto;
+                        margin-top: 2%;
+                        border-radius: 10px;
+                        display: flex;
+                        justify-content: space-around;
+                        align-items: center;
+                        text-decoration: none;
+                        color: black;
+                        transition: 0.3s;
+                        margin: auto;
+                    }
+                }
+            }
+
+        }
+    }
+
+    // bloc article1
+
+    .boutonplandactivite {
+        h1 {
+            a {
+                background-color: rgba(187, 231, 243, 1);
+                height: 70px;
+                width: 280px;
+                margin: auto;
+                margin-top: 2%;
+                border-radius: 10px;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                text-decoration: none;
+                color: black;
+                transition: 0.3s;
+                margin: auto;
+            }
+        }
+
+    }
 
 
 
@@ -407,4 +539,13 @@ $couleurfond: #ced4da;
     }
 
     // option hovers -->
+
+
+    // nivo slider -->
+    .nivo-caption {
+        background-color: transparent;
+        top: 40%;
+        left: 40%;
+        font-size: 5rem;
+    }
 }

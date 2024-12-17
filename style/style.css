@@ -1,11 +1,6 @@
-:root {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+* {
+  margin: auto;
   max-width: 1200px;
-  width: 100%;
-  margin: 0 auto;
-  background-color: white;
 }
 
 #container .navbar #list {
@@ -46,7 +41,7 @@
 #container .imgaccueil h1 {
   background-color: black;
   height: 100%;
-  width: 1000px;
+  width: 85%;
 }
 #container .imgaccueil h1 img {
   height: 100%;
@@ -56,6 +51,8 @@
 }
 #container .imgaccueil h2 {
   position: absolute;
+  height: 50%;
+  width: 30%;
 }
 #container .blocxp {
   display: flex;
@@ -64,7 +61,7 @@
   background-color: #ced4da;
   height: auto;
   width: 85%;
-  margin: auto;
+  margin-top: 2%;
   padding: 0px 0%;
   border-radius: 10px;
 }
@@ -84,8 +81,6 @@
 #container .blocxp .textxp h2 {
   text-align: center;
   font-size: 30px;
-  display: flex;
-  justify-content: space-around;
   margin: 2%;
 }
 #container .blocsatis {
@@ -115,9 +110,7 @@
 #container .blocsatis .textsatis h2 {
   text-align: center;
   font-size: 30px;
-  display: flex;
-  justify-content: space-around;
-  margin: 3%;
+  margin: 2%;
 }
 #container .blocconf {
   display: flex;
@@ -146,8 +139,6 @@
 #container .blocconf .textconf h2 {
   text-align: center;
   font-size: 30px;
-  display: flex;
-  justify-content: space-around;
   margin: 2%;
 }
 #container .blocsecu {
@@ -177,8 +168,6 @@
 #container .blocsecu .textsecu h2 {
   text-align: center;
   font-size: 30px;
-  display: flex;
-  justify-content: space-around;
   margin: 2%;
 }
 #container .imgfamily {
@@ -220,34 +209,35 @@
 #container .blocfamily .textfamily h1 {
   text-align: center;
   font-size: 70px;
-  text-shadow: 4px 3px 0 #7A7A7A;
   margin: auto;
 }
 #container .blocfamily .textfamily h2 {
   text-align: center;
   font-size: 30px;
-  display: flex;
-  justify-content: space-around;
-  margin: 1%;
+  margin: 2%;
 }
 #container .Boutonannonce {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgb(187, 231, 243);
-  height: auto;
-  width: 30%;
   margin: auto;
   margin-top: 2%;
   border-radius: 10px;
 }
 #container .Boutonannonce h1 a {
+  background-color: rgb(187, 231, 243);
+  height: 70px;
+  width: 240px;
+  margin: auto;
+  margin-top: 2%;
+  border-radius: 10px;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   text-decoration: none;
   color: black;
   transition: 0.3s;
+  margin: auto;
 }
 #container .blocfooter {
   background-color: rgb(33, 37, 41);
@@ -280,6 +270,7 @@
   width: 31%;
   color: white;
   padding-right: 16%;
+  margin: 0%;
 }
 #container .blocfooter a {
   display: flex;
@@ -293,10 +284,128 @@
   margin: 0px;
   transition: 0.3s;
   font-size: 20px;
+  padding-right: 1%;
+}
+#container .bloctop {
+  display: flex;
+  justify-content: space-around;
+}
+#container .bloctop .blocarticle1 {
+  display: flex;
+  justify-content: space-around;
+  background-color: #ced4da;
+  height: auto;
+  width: 45%;
+  margin-top: 2%;
+  padding: 0px 0%;
+  border-radius: 10px;
+}
+#container .bloctop .blocarticle1 .textarticle1 .imgaccueil {
+  margin: 23px;
+}
+#container .bloctop .blocarticle1 .textarticle1 .imgaccueil img {
+  display: flex;
+  align-content: center;
+  margin: auto;
+  height: 300px;
+  width: 100%;
+  border-radius: 10px;
+}
+#container .bloctop .blocarticle1 .textarticle1 h1 {
+  text-align: center;
+  font-size: 23px;
+  margin: 5%;
+}
+#container .bloctop .blocarticle1 .textarticle1 h2 {
+  margin-bottom: 4%;
+}
+#container .bloctop .blocarticle1 .textarticle1 h2 a {
+  background-color: rgb(187, 231, 243);
+  height: 70px;
+  width: 240px;
+  margin: auto;
+  margin-top: 2%;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+  transition: 0.3s;
+  margin: auto;
+}
+#container .blocbot {
+  display: flex;
+  justify-content: space-around;
+}
+#container .blocbot .blocarticle1 {
+  display: flex;
+  justify-content: space-around;
+  background-color: #ced4da;
+  height: auto;
+  width: 45%;
+  margin-top: 2%;
+  padding: 0px 0%;
+  border-radius: 10px;
+}
+#container .blocbot .blocarticle1 .textarticle1 .imgaccueil {
+  margin: 23px;
+}
+#container .blocbot .blocarticle1 .textarticle1 .imgaccueil img {
+  display: flex;
+  align-content: center;
+  margin: auto;
+  height: 300px;
+  width: 100%;
+  border-radius: 10px;
+}
+#container .blocbot .blocarticle1 .textarticle1 h1 {
+  text-align: center;
+  font-size: 23px;
+  margin: 5%;
+}
+#container .blocbot .blocarticle1 .textarticle1 h2 {
+  margin-bottom: 4%;
+}
+#container .blocbot .blocarticle1 .textarticle1 h2 a {
+  background-color: rgb(187, 231, 243);
+  height: 70px;
+  width: 240px;
+  margin: auto;
+  margin-top: 2%;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+  transition: 0.3s;
+  margin: auto;
+}
+#container .boutonplandactivite h1 a {
+  background-color: rgb(187, 231, 243);
+  height: 70px;
+  width: 280px;
+  margin: auto;
+  margin-top: 2%;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+  transition: 0.3s;
+  margin: auto;
 }
 #container a:hover {
   color: rgb(231, 13, 13);
   text-shadow: 0 0 10px red, 0 0 20px red, 0 0 40px red, 0 0 80px red, 0 0 120px red, 0 0 160px red;
+}
+#container .nivo-caption {
+  background-color: transparent;
+  top: 40%;
+  left: 40%;
+  font-size: 5rem;
 }
 
 /*# sourceMappingURL=style.css.map */
