@@ -1,14 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/style/style.css" />
     <title>Document</title>
-</head>
-
-<body>
-
-</body>
-
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <main id="container">
+      <!-- bar navigaion -->
+      <nav id="navbar">
+        <ul id="list">
+          <li>
+            <a href="/style/index.html"
+              ><img
+                src="/img/Aux gîtes de Maëll-Photoroom.png"
+                alt="logo"
+                class="logo"
+            /></a>
+          </li>
+          <li><a href="/style/index.html">Acueil</a></li>
+          <li><a href="/style/annonce.html">Annonce</a></li>
+          <li><a href="/style/contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <!-- bar navigaion -->
+       <!-- bloc contact -->
+      <main id="contenuformulaire">
+        <h2 class="titrepage">Contact</h2>
+        <div id="formulaire">
+            <div class="colonne">
+                <form action="contact.php" method="post">
+                    <p><label for="nom">Nom</label><input type="text" name="nom" id="nom" placeholder="Votre nom"></p>
+                    <p><label for="email">Email</label><input type="email" name="email" id="email" placeholder="toto@toto.com"></p>
+                    <p><label for="message">Message</label><textarea name="message" id="message" rows="5" placeholder="Votre Message"></textarea></p>
+                    <p><input type="submit" value="ENVOYER"></p>
+                </form>
+            </div>
+            <div class="blocinfo">
+                <!-- <div class="bloccontactinfo">
+                <h5>Nous Trouver</h5>
+                <address>
+                    255 rue Saint-Honoré<br>
+                    75001 Paris
+                </address>
+                <p>Tel: (33) 1 252 389 3571<br><br>
+                Lundi - Vendredi : 9:00 à 18:00<br>
+                Samedi : 10:00 à 20:00<br>
+                Dimanche : Fermé</p>
+            </div>     -->
+            </div>
+        </div>
+    </main>
+    <footer id="copyright">
+        <p>&copy; Au gite de maile - Copyright 2022</p>
+    </footer>
+    <!-- bloc contact -->
+      <!-- bloc footer -->
+      <footer>
+        <div class="blocfooter">
+          <div class="blocicones">
+            <div class="facebook">
+              <i class="fa-brands fa-facebook" style="color: #ffffff"></i>
+            </div>
+            <div class="discord">
+              <i class="fa-brands fa-discord" style="color: #ffffff"></i>
+            </div>
+            <div class="instagram">
+              <i class="fa-brands fa-instagram" style="color: #ffffff"></i>
+            </div>
+          </div>
+          <div class="blocmention">
+            <h1>©2024 AUX GÎTES DE MAËLL</h1>
+            <a href="mentionlegal">MENTIONS LÉGALES</a>
+          </div>
+        </div>
+      </footer>
+      <!-- bloc footer -->
+       <!-- Scripts -->
+    <script type="text/javascript">
+    $('#menuprincipal #burger').click(function(){
+        $('#menuprincipal ul').slideToggle(800);
+    });
+    </script>
+    </main>
+  </body>
+</html>
+  </body>
 </html>

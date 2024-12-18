@@ -8,7 +8,7 @@ $couleurfond: #ced4da;
 #container {
 
     // <!-- bar navigaion -->
-    .navbar {
+    #navbar {
         #list {
             list-style-type: none;
             padding: 0px;
@@ -50,6 +50,7 @@ $couleurfond: #ced4da;
         display: flex;
         justify-content: center;
         align-items: center;
+        align-content: center;
         border-radius: 10px;
 
         h1 {
@@ -67,8 +68,12 @@ $couleurfond: #ced4da;
 
         h2 {
             position: absolute;
-            height: 50%;
-            width: 30%;
+            height: auto;
+            width: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            align-content: center;
         }
     }
 
@@ -383,7 +388,7 @@ $couleurfond: #ced4da;
         .blocarticle1 {
             display: flex;
             justify-content: space-around;
-            // align-items: center;
+            align-items: center;
             background-color: $couleurfond;
             height: auto;
             width: 45%;
@@ -519,16 +524,223 @@ $couleurfond: #ced4da;
 
 
 
+    #blocdetails {
+        .blocdetails1 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: $couleurfond;
+            height: 100px;
+            width: 85%;
+            margin-top: 2%;
+            margin-bottom: 2%;
+            border-radius: 10px;
+        }
+
+        .blocdetails2 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: $couleurfond;
+            height: auto;
+            width: 85%;
+            margin-top: 2%;
+            margin-bottom: 2%;
+            border-radius: 10px;
+
+        }
+
+        .blocdetails3 {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            background-color: $couleurfond;
+            height: auto;
+            width: 85%;
+            margin-top: 2%;
+            margin-bottom: 2%;
+            border-radius: 10px;
+        }
+
+
+        h1 {
+            margin: 5%;
+        }
+
+    }
+
+
+    .map {
+        iframe {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            height: 600px;
+            width: 85%;
+            margin-top: 2%;
+            margin-bottom: 2%;
+            border-radius: 10px;
+        }
+    }
+
+
+    #blocplan {
+        .blocplan1 {}
+
+        h1 {
+            display: flex;
+            justify-content: start;
+            align-items: center;
+            background-color: $couleurfond;
+            height: 250px;
+            width: 70%;
+            margin-top: 2%;
+            margin-bottom: 2%;
+            padding-left: 2%;
+            border-radius: 10px;
+        }
+
+        .blocplan2 {
+            h1 {
+                display: flex;
+                justify-content: start;
+                align-items: center;
+                background-color: $couleurfond;
+                height: 100px;
+                width: 70%;
+                margin-top: 2%;
+                margin-bottom: 2%;
+                padding-left: 2%;
+                border-radius: 10px;
+            }
+        }
+
+        .blocplan3 {
+            h1 {
+                display: flex;
+                justify-content: start;
+                align-items: center;
+                background-color: $couleurfond;
+                height: 250px;
+                width: 70%;
+                margin-top: 2%;
+                margin-bottom: 2%;
+                padding-left: 2%;
+                border-radius: 10px;
+            }
+        }
+
+        .blocplan4 {
+            h1 {
+                display: flex;
+                justify-content: start;
+                align-items: center;
+                background-color: $couleurfond;
+                height: 750px;
+                width: 70%;
+                margin-top: 2%;
+                margin-bottom: 2%;
+                padding-left: 2%;
+                border-radius: 10px;
+            }
+        }
+    }
+
+    #contenuformulaire {
+        h2 {
+            display: flex;
+            justify-content: center;
+            margin-top: 6%;
+        }
+
+        #formulaire {
+            align-items: center;
+            align-content: center;
+            background-color: $couleurfond;
+            height: 300px;
+            width: 50%;
+            border-radius: 10px;
+
+            .colonne {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                align-content: center;
+
+                #nom {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    align-content: center;
+                    margin: 0;
+                    margin-top: 5%;
+                    margin-bottom: 5%;
+                }
+
+                #email {
+                    display: flex;
+                    justify-content: center;
+                    margin: 0;
+                    margin-top: 5%;
+                    margin-bottom: 5%;
+                }
+
+                #message {
+                    display: flex;
+                    justify-content: center;
+                    margin: 0;
+                    margin-top: 5%;
+                    margin-bottom: 10%;
+                }
+            }
+        }
+    }
+
+    #copyright {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        margin: 3%;
+        margin-top: 15.2%;
+    }
 
 
 
+    #navbar {
+        #burger {
+            margin-top: 20px;
+            font-size: 2.5rem;
+            display: none;
+            /* masque burger en grand */
+        }
+    }
 
+    #navbar {
+        #burger a {
+            color: rgb(151, 0, 0);
+        }
+    }
 
+    @media screen and (max-width:576px) {
+        #navbar {
+            #burger a:hover {
+                color: #fcdf3d;
+            }
+        }
 
+        #navbar {
+            #burger {
+                display: block;
+            }
+        }
 
-
-
-
+        #navbar {
+            ul {
+                display: none;
+            }
+        }
+    }
 
 
     // option hovers -->
@@ -544,8 +756,5 @@ $couleurfond: #ced4da;
     // nivo slider -->
     .nivo-caption {
         background-color: transparent;
-        top: 40%;
-        left: 40%;
-        font-size: 5rem;
     }
 }
