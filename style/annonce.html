@@ -23,7 +23,7 @@
                 class="logo"
             /></a>
           </li>
-          <li><a href="/style/index.html">Acueil</a></li>
+          <li><a href="/style/index.html">Accueil</a></li>
           <li><a href="/style/annonce.html">Annonce</a></li>
           <li><a href="/style/contact.html">Contact</a></li>
         </ul>
@@ -131,11 +131,26 @@
           </div>
           <div class="blocmention">
             <h1>©2024 AUX GÎTES DE MAËLL</h1>
-            <a href="mentionlegal">MENTIONS LÉGALES</a>
+            <a href="/style/mentionlegales.html">MENTIONS LÉGALES</a>
           </div>
         </div>
       </footer>
       <!-- bloc footer -->
     </main>
+    <!-- Scripts du slider -->
+    <script type="text/javascript" src="/scripts/jquery-1.9.0.min.js"></script>
+    <script
+      type="text/javascript"
+      src="/scripts/jquery.nivo.slider.js"
+    ></script>
+    <script type="text/javascript">
+      $(window).load(function () {
+        $("#slider").nivoSlider();
+      });
+      $("#navbar #burger").click(function () {
+        $("#navbar ul").slideToggle(1500);
+      });
+    </script>
+    <!-- Scripts du slider -->
   </body>
 </html>

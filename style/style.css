@@ -3,19 +3,18 @@
   max-width: 1200px;
 }
 
+#container {
+  /*=====================================Mediaqueries=========================================*/
+}
 #container #navbar #list {
   list-style-type: none;
-  padding: 0px;
   margin: 2%;
   border-top: 1px solid;
   border-bottom: 1px solid;
   display: flex;
   justify-content: space-around;
-  padding: 0% 0%;
   font-family: "Quattrocento Sans", sans-serif;
   font-weight: bolder;
-  list-style: none;
-  align-items: center;
 }
 #container #navbar #list li {
   font-size: 200%;
@@ -23,7 +22,6 @@
 #container #navbar #list .logo {
   height: 150px;
   width: auto;
-  justify-content: space-around;
   padding-right: 250px;
   padding-left: 100px;
 }
@@ -500,7 +498,13 @@
 #container #contenuformulaire h2 {
   display: flex;
   justify-content: center;
+  align-items: center;
+  align-content: center;
   margin-top: 6%;
+  background-color: #ced4da;
+  height: 50px;
+  width: 10%;
+  border-radius: 10px;
 }
 #container #contenuformulaire #formulaire {
   align-items: center;
@@ -508,6 +512,7 @@
   background-color: #ced4da;
   height: 300px;
   width: 50%;
+  margin-top: 3%;
   border-radius: 10px;
 }
 #container #contenuformulaire #formulaire .colonne {
@@ -539,13 +544,128 @@
   margin-top: 5%;
   margin-bottom: 10%;
 }
+#container #contenuformulaire #formulaire .colonne .Boutonenvoyer {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  margin-top: 5%;
+  margin-bottom: 10%;
+  margin-left: 23%;
+}
 #container #copyright {
   display: flex;
   justify-content: center;
   align-items: center;
   align-content: center;
-  margin: 3%;
-  margin-top: 15.2%;
+  margin-top: 135px;
+}
+#container #blocmention .textmention1 {
+  height: 100px;
+  width: 30%;
+  display: flex;
+  align-items: center;
+  align-content: center;
+}
+#container #blocmention .textmention1 h1 {
+  display: flex;
+  align-items: center;
+  align-content: center;
+}
+#container #blocmention .textmention2 {
+  height: 100px;
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+#container #blocmention .textmention2 h1 {
+  font-size: 20px;
+  text-align: center;
+}
+#container #blocmention .textmention3 {
+  height: 100px;
+  width: 30%;
+  display: flex;
+  align-items: center;
+  align-content: center;
+}
+#container #blocmention .textmention4 {
+  height: 100px;
+  width: 60%;
+  display: flex;
+  align-items: center;
+  align-content: center;
+}
+#container #blocmention .textmention4 h1 {
+  font-size: 20px;
+  text-align: center;
+}
+#container #blocmention .textmention5 {
+  height: 100px;
+  width: 30%;
+  display: flex;
+  align-items: center;
+  align-content: center;
+}
+#container #blocmention .textmention5 h1 {
+  text-align: center;
+}
+#container #blocmention .textmention6 {
+  height: 100px;
+  width: 60%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  align-content: center;
+}
+#container #blocmention .textmention6 h1 {
+  font-size: 20px;
+  text-align: center;
+}
+#container #blocmention .textmention7 {
+  height: 100px;
+  width: 30%;
+  display: flex;
+  align-items: center;
+  align-content: center;
+}
+#container #blocmention .textmention7 h1 {
+  text-align: center;
+}
+#container #blocmention .textmention8 {
+  height: 100px;
+  width: 60%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  align-content: center;
+}
+#container #blocmention .textmention8 h1 {
+  font-size: 20px;
+  text-align: center;
+}
+#container #blocmention .textmention9 {
+  height: 100px;
+  width: 30%;
+  display: flex;
+  align-items: center;
+  align-content: center;
+}
+#container #blocmention .textmention9 h1 {
+  text-align: center;
+}
+#container #blocmention .textmention10 {
+  height: 100px;
+  width: 60%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  align-content: center;
+}
+#container #blocmention .textmention10 h1 {
+  font-size: 20px;
+  text-align: center;
 }
 #container #navbar #burger {
   margin-top: 20px;
@@ -556,15 +676,94 @@
 #container #navbar #burger a {
   color: rgb(151, 0, 0);
 }
-@media screen and (max-width: 576px) {
-  #container #navbar #burger a:hover {
-    color: #fcdf3d;
+@media screen and (max-width: 1200px) {
+  #container #navbar #list {
+    list-style-type: none;
+    width: 89%;
   }
-  #container #navbar #burger {
-    display: block;
+  #container #navbar #list li {
+    font-size: 30px;
   }
-  #container #navbar ul {
-    display: none;
+  #container #navbar #list .logo {
+    height: 150px;
+    width: auto;
+    padding-right: 50px;
+    padding-left: 50px;
+  }
+  #container #navbar #list a {
+    text-decoration: none;
+    color: black;
+    transition: 0.3s;
+  }
+}
+@media screen and (max-width: 1100px) {
+  #container #navbar {
+    width: 85%;
+  }
+  #container #navbar #lsit {
+    width: 75%;
+    font-size: 20px;
+    font-size: 10px;
+  }
+  #container #navbar li {
+    font-size: 20px;
+    margin-left: 1%;
+    margin-right: 1%;
+  }
+  #container #navbar .logo {
+    height: 150px;
+    width: auto;
+    padding-right: 25px;
+    padding-left: 0px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  #container #navbar #list li {
+    font-size: 20px;
+  }
+  #container #navbar #list .logo {
+    height: 100px;
+    width: auto;
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+  #container #navbar #list a {
+    text-decoration: none;
+    color: black;
+    transition: 0.3s;
+  }
+}
+@media screen and (max-width: 700px) {
+  #container #navbar #list {
+    padding: 0;
+  }
+  #container #navbar #list li {
+    font-size: 15px;
+  }
+  #container #navbar #list .logo {
+    height: 70px;
+    width: 70px;
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+  #container #navbar #list a {
+    text-decoration: none;
+    color: black;
+    transition: 0.3s;
+  }
+}
+@media screen and (max-width: 1200px) {
+  #container .imgaccueil h2 img {
+    height: 100%;
+    width: 70%;
+    border-radius: 10px;
+  }
+}
+@media screen and (max-width: 700px) {
+  #container .imgaccueil h2 img {
+    height: 100%;
+    width: 40%;
+    border-radius: 10px;
   }
 }
 #container a:hover {
